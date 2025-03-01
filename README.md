@@ -44,7 +44,7 @@ geographically-distributed locations. These backups are themselves encrypted and
 sharded so they can be stored in multiple locations. A majority of the shards are required to
 reconstruct the key and access the backups. Each key shard is encrypted with the combination of a
 [one-time pad](https://en.wikipedia.org/wiki/One-time_pad) (shared among the shards) and a
-[book cipher](https://en.wikipedia.org/wiki/Book_cipher) specific to a shared. The books used are
+[book cipher](https://en.wikipedia.org/wiki/Book_cipher) specific to a shard. The books used are
 never written down or disclosed to other parties. These physical materials and digital media are
 further protected by tamper-evident seals and a stringently documented chain of custody. 
 
@@ -53,7 +53,7 @@ in the same manner as the key materials. In the event of a compromise, these cer
 immediately published to revoke the compromised materials.
 
 Each commit to this repository updates the `SHA512SUMS` file with the SHA512 hashes of the files
-it contains. The `SHA512SUMS` file is signed by using an SMIME certificate which has been issued by
+it contains. The `SHA512SUMS` file is signed using an SMIME certificate which has been issued by
 a public CA and which required verification of my government-issued ID to obtain. Each commit is
 also signed by one of my GPG keys (contained herein).
 
