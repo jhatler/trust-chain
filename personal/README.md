@@ -14,3 +14,12 @@ other people, but only for those I know personally and trust.
 
 You can find the Root CA at [ca/Jaremy_Hatler-RootCA.pem](ca/Jaremy_Hatler-RootCA.pem) and the
 Intermediate CA at [ca/Jaremy_Hatler-InermediateCA.pem](ca/Jaremy_Hatler-InermediateCA.pem).
+
+## Personal x.509 Certificates
+
+The following x.509 certificates are used for my personal operations and have been issued by
+my private CA:
+- [Client Authentication](x509/client-auth.pem): Used to authenticate myself to servers.
+- [Digital Signature](x509/digital-signature.pem): Used to sign documents and other materials.
+- [Card Authentication](x509/card-auth.pem): Used to authenticate my YubiKey for physical access.
+
