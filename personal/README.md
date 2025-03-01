@@ -5,6 +5,14 @@ The materials in this directory are used for personal communications and operati
 All OpSec measures described in the [README](../README.md) apply to these materials as well.
 Any additional OpSec measures specific to this domain are described below.
 
+## SMIME
+
+I use SMIME for email encryption and signing in my personal life, along with GPG. I have
+obtained a certificate from a public CA for this purpose, which requires verification of my
+government-issued ID to obtain/renew. You can find the certificate at
+[x509/smime.pem](x509/smime.pem). The intermediate CA which issued the certificate can be
+found at [x509/smime-chain.pem](x509/smime-chain.pem).
+
 ## Certificate Authorities
 I operate a private Root and Intermediate CA for issuing certificates used within my home and
 for private services I host in various places. The Root CA is kept offline and is only used to
