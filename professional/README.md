@@ -6,7 +6,7 @@ These materials are separate from any past or present employer.
 All OpSec measures described in the [README](../README.md) apply to these materials as well.
 Any additional OpSec measures specific to this domain are described below.
 
-## Personal x.509 Certificates
+## Professional x.509 Certificates
 
 The following x.509 certificates are used for my professional operations and have been issued by
 [Enacted Services' CA](https://github.com/Enacted-Services/trust-chain/tree/main/data/ca):
