@@ -56,3 +56,13 @@ Each commit to this repository updates the `SHA512SUMS` file with the SHA512 has
 it contains. The `SHA512SUMS` file is signed by using an SMIME certificate which has been issued by
 a public CA and which required verification of my government-issued ID to obtain. Each commit is
 also signed by one of my GPG keys (contained herein).
+
+## Security Domains
+
+The materials in this repository are stored together in the [data](data) directory, but are
+organized into separate security domains. Each security domain has its own directory which
+contains links to its materials and a README file with more information about the domain.
+The security domains are:
+- [Personal](personal): Materials used for personal communications and operations.
+- [Professional](professional): Materials used for professional communications and operations
+  separate from any specific employer.
